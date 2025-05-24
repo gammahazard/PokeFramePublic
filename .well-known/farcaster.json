@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEwMTA3OTksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4NTEwOWM3ZjYxQmVFM2I2ODYwNjdhNzUwQkQ0NzQ2NDFmOUVmMjkxIn0",
+    "payload": "eyJkb21haW4iOiJwb2tlLWZyYW1lLXB1YmxpYy52ZXJjZWwuYXBwIn0",
+    "signature": "MHhhNDU1ZjY4MWFlNDc3YjJlY2U2YjBlYTk0MWU1MDBhYThlMDEwMThmMDdkMDVkNGQyNTE4NWE0NGQ2OWJkMmQwNGZiYzgwYWYxMDkyYTU3OTVlZTUxZTgxNjM0MTU3OTJjNTAyYmNiMTFlY2E2NzYxZmRjOWE2MDI4ZDg4ODIyMDFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "PokeFrame",
+    "iconUrl": "https://poke-frame-public.vercel.app/assets/images/pokeframe1024.png",
+    "homeUrl": "https://poke-frame-public.vercel.app",
+    "imageUrl": "https://poke-frame-public.vercel.app/assets/images/pokeframe1200.png",
+    "buttonTitle": "🎮 Play Now",
+    "splashImageUrl": "https://poke-frame-public.vercel.app/assets/images/pokeframe200.png",
+    "splashBackgroundColor": "#3a539b",
+    "webhookUrl": "https://api.gummybera.com/api/webhook"
+  }
+}

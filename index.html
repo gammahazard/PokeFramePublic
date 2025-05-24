@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preload" as="font" type="font/otf" href="/assets/GillSansBoldItalic-vO5bSb5B.otf" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/ttf" href="/assets/Pretendo-aAXz-lOC.ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/otf" href="/assets/GillSansMediumItalic-C6h6wOw8.otf" crossorigin="anonymous">
+    <link rel="preload" as="font" type="font/ttf" href="/assets/NES_Controller-hRiEP7bn.ttf" crossorigin="anonymous">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Disable zooming: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    
+    <!-- Force high frame rate -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Farcaster Frame/Mini App metadata -->
+    <meta property="og:image" content="https://poke-frame-public.vercel.app/assets/images/pokeframe.png" />
+    <meta property="fc:frame" content="vNext" />
+    <meta property="fc:frame:image" content="https://poke-frame-public.vercel.app/assets/images/pokeframe.png" />
+    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+    <meta property="fc:frame:button:1" content="🎮 Play Now" />
+    <meta property="fc:frame:button:1:action" content="post_redirect" />
+    <meta property="fc:frame:post_url" content="https://poke-frame-public.vercel.app/frame" />
+    
+    <title>Pokémon Shin Blue</title>
+    
+    <!-- Critical Tailwind utility classes -->
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #3a539b;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      /* Core Tailwind classes needed for first render */
+      .flex { display: flex; }
+      .items-center { align-items: center; }
+      .justify-center { justify-content: center; }
+      .flex-col { flex-direction: column; }
+      .p-4 { padding: 1rem; }
+      .w-10 { width: 2.5rem; }
+      .h-10 { height: 2.5rem; }
+      .rounded-full { border-radius: 9999px; }
+      .mr-3 { margin-right: 0.75rem; }
+      .text-lg { font-size: 1.125rem; }
+      .font-semibold { font-weight: 600; }
+      .text-xs { font-size: 0.75rem; }
+      .text-gray-400 { color: rgba(156, 163, 175, 1); }
+      .bg-gray-800 { background-color: rgba(31, 41, 55, 1); }
+      .rounded-lg { border-radius: 0.5rem; }
+      .mb-2 { margin-bottom: 0.5rem; }
+      .mt-2 { margin-top: 0.5rem; }
+      .px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+      .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+      .text-sm { font-size: 0.875rem; }
+      .bg-red-800 { background-color: rgba(153, 27, 27, 1); }
+      .text-white { color: white; }
+      .rounded { border-radius: 0.25rem; }
+      .p-2 { padding: 0.5rem; }
+      .space-x-2 > * + * { margin-left: 0.5rem; }
+      
+      #root {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    
+    <!-- Load Neynar SIWN script directly in the head -->
+    <script src="https://neynarxyz.github.io/siwn/1.2.0/index.js" async></script>
+    <script type="module" crossorigin src="/assets/index-BBtjCGTq.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ByT9wwdi.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-DZhX75KI.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16-Cab8DwP9.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32-C1y2jgZA.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48-BpAXrWkt.png">
+  </head>
+
+  <body>
+    <script>
+      // The `--no-modules`-generated JS from `wasm-bindgen` attempts to use
+      // `WebAssembly.instantiateStreaming` to instantiate the wasm module,
+      // but this doesn't work with `file://` urls. This example is frequently
+      // viewed by simply opening `index.html` in a browser (with a `file://`
+      // url), so it would fail if we were to call this function!
+      //
+      // Work around this for now by deleting the function to ensure that the
+      // `no_modules.js` script doesn't have access to it. You won't need this
+      // hack when deploying over HTTP.
+      delete WebAssembly.instantiateStreaming
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
