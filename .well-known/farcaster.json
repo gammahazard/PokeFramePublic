@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEwMTA3OTksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4NTEwOWM3ZjYxQmVFM2I2ODYwNjdhNzUwQkQ0NzQ2NDFmOUVmMjkxIn0",
+    "payload": "eyJkb21haW4iOiJwb2tlZnJhbWUubWUifQ",
+    "signature": "MHhlMzE2ZmE0ZTM0NjMxNDY1NTBiOTgxZmJmNmJkODI1NzM2ZmU0MTNmNGNhZGI5YmEwMDJjOTA4NGEyZDQ2OTE2NjlhZmJmYTJhODVjZDdkNTY5NmY0YjA3YzJkNjk5ZjgxNjBkZGZmZDU0NmFmMzFmNDk4YThmOGU2MDcxOTZmYjFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "PokeFrame",
+    "iconUrl": "https://pokeframe.me/assets/images/pokeframe1024.png",
+    "homeUrl": "https://pokeframe.me",
+    "imageUrl": "https://pokeframe.me/assets/images/pokeframe1200.png",
+    "buttonTitle": "🎮 Play Now",
+    "splashImageUrl": "https://pokeframe.me/assets/images/pokeframe200.png",
+    "splashBackgroundColor": "#3a539b",
+    "webhookUrl": "https://pokeframe.me/api/webhook",
+    "primaryCategory": "games",
+    "subtitle": "Pokemon GameBoy Emulator",
+    "description": "Play classic Pokemon games with NFT collection, live chat, and Farcaster integration. Catch Pokemon and mint them as NFTs on Base!",
+    "tags": ["pokemon", "gameboy", "emulator", "nft", "gaming"],
+    "screenshotUrls": [
+      "https://docs.pokeframe.me/images/start.png",
+      "https://docs.pokeframe.me/images/notifications.png", 
+      "https://docs.pokeframe.me/images/your-collection.png"
+    ],
+    "castShareUrl": "https://farcaster.xyz/mangolover4evr/0x96f03963",
+    "requiredChains": ["eip155:8453"],
+    "requiredCapabilities": ["haptics.impactOccurred", "haptics.notificationOccurred", "haptics.selectionChanged", "wallet.getEthereumProvider"]
+  }
+}

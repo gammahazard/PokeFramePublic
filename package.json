@@ -1,0 +1,7 @@
+{
+  "name": "feather-gb-api",
+  "dependencies": {
+    "@farcaster/frame-node": "^0.0.30",
+    "@vercel/node": "^1.14.0"
+  }
+}
